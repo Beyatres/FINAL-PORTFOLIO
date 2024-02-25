@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9c652b69e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+           <a href="#header">
+            <img src="img/logo.png" class="logo" style="height: 200px; width: 200px;">
+        </a>
+           <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+           </ul>
+           <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h2>Hello! I am </h2>
+            <h1> BEATRIZ CAYETANO</h1>
+            <p>I'm thrilled to have you here exploring my digital showcase. <br>
+                Within these virtual walls, you'll discover a curated collection of <br>
+                my work, passion projects, and creative endeavors.</p>
+        </div>
+        
+
+        <div class="buttons">
+            <a href="resume.pdf" class="btn">Download CV</a>
+        </div>
+
+    
+</div>
+</div>
+
+<!-- ABOUT -->
+<div id="About">
+    <div class="row">
+        <div class="About-col-1">
+            <img src="img/profile.jpg">
+        </div>
+        <div class="About-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p> The Technophile in Me: <br> From an early age, I found myself captivated by the allure of gadgets and computers. 
+                The endless possibilities they offered drew me in like a magnet, and I began exploring the digital realm with boundless enthusiasm. 
+                Embracing technology has become a part of who I am, as I find myself eagerly diving into the latest tech trends and developments.
+                <br>
+                <br>The Code Whisperer: <br> Among the many languages I've encountered, coding is my chosen means of communication with machines. 
+                Whether it's writing elegant lines of Python, crafting dynamic web pages with HTML, or solving complex problems with Java, I relish the challenge of deciphering the language of computers. 
+                Each line of code I write carries the potential to create something extraordinary.
+                
+                <br>
+                <br> The Innovator and Problem Solver: <br> Beyond mastering existing technologies, 
+                I strive to be an innovator and problem solver. I believe that technology holds the key to solving real-world issues and enhancing lives. 
+                My creativity thrives in devising solutions that merge cutting-edge ideas with practicality, envisioning a future where technology creates a positive impact on society. 
+                <br>
+                <br>The Continuous Learner: <br> In the realm of IT, learning is an ongoing journey. New technologies emerge at lightning speed, and I relish the opportunity to embark on a perpetual quest for knowledge. 
+                Whether it's attending workshops, participating in hackathons, or enrolling in online courses, I am committed to staying at the forefront of the ever-evolving IT landscape.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Programming </span><br>HTMLS, JavaScript, CSS, Python </li>
+                    <li><span>Leadership Skills </span><br>Classroom President since first year</li>
+                    <li><span>Communication Skills </span><br>Good at Public Speaking </li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023-Present </span><br>Dalubhasaan ng Lungsod ng Lucena</li>
+                    <li><span>2020-2021</span><br>ARK Technological Institute Education System</li>
+                    <li><span>2018-2019 </span><br>Talipan National High School </li>
+                    <li><span>2014-2015 </span><br>Elementary School </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Achievements">
+                <ul>
+                    <li><span>2017 </span><br>With Honors</li>
+                    <li><span>2019</span><br>With Honors</li>
+                    <li><span>2020 </span><br>With Honors</li>
+                    <li><span>2021</span><br>Best in Technical-Vocational 
+                        <br>Best in Communication Arts
+                        <br>Best in Science
+                        <br>Best in Mathematics
+                        <br>Best in Social Sciences</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--PROJECTS-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS</h1>
+        <div class="proj-list">
+            <div class="project">
+                <img src="img/RES.png">
+                <div class="layer">
+                    <h3>RESPONSIVE WEBSITE</h3>
+                    <div class="projbtn">
+                        <a href="https://beyatres.github.io/Responsive-Website/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/Beyatres/Responsive-Website" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="img/calcu.png">
+                <div class="layer">
+                    <h3>CALCULATOR-DESIGN</h3>
+                    <div class="projbtn">
+                        <a href="https://beyatres.github.io/CALCULATOR/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/Beyatres/CALCULATOR" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project">
+                <img src="img/resu.png">
+                <div class="layer">
+                    <h3>RESUME</h3>
+                    <div class="projbtn">
+                        <a href="https://beyatres.github.io/online-resume/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/Beyatres/online-resume" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="img/lator.png">
+                <div class="layer">
+                    <h3>WORKING CALCU</h3>
+                    <div class="projbtn">
+                        <a href="https://beyatres.github.io/Working-Calculator/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/Beyatres/Working-Calculator" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="img/to.png">
+                <div class="layer">
+                    <h3>TO-DO-LIST</h3>
+                    <div class="projbtn">
+                        <a href="https://beyatres.github.io/to-do-list/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/Beyatres/to-do-list" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project">
+                <img src="img/old.png">
+                <div class="layer">
+                    <h3>PERSONAL BLOG</h3>
+                    <div class="projbtn">
+                        <a href="https://beyatres.github.io/OLD-portfolio/" class="buttons" target="window">Live Demo</a>
+                        <a href="https://github.com/Beyatres/OLD-portfolio" class="buttons" target="window">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- CONTACT -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>beacayetano@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09434416228</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/beatriz.cayetano.10/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/btrz_cytn"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/btriz.cytn/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+
+            </div>
+            <div class="contact_form" action="none">
+                <form id="contactForm" >
+                    <input type="text" id="name" name="name" placeholder="Full Name">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    <button type="submit" class="submit_btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+    
+</body>
+</html>
